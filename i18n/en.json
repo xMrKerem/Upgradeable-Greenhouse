@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Upgrade Greenhouse",
+  "menu.greenhouse": "Greenhouse",
+  "question.level1": "I can upgrade your greenhouse for 30,000g, 250 Wood, and 200 Stone. Are you interested?",
+  "question.level2": "I can expand your greenhouse for 50,000g, 300 Wood, and 100 Hardwood. Are you interested?",
+  "question.level3": "I can add a basement to your greenhouse for 80,000g, 500 Stone, and 150 Hardwood. Are you interested?",
+  "error.not_enough_gold": "You don't have enough gold for this upgrade!",
+  "error.not_enough_materials": "You don't have enough materials in your inventory!",
+  "success.upgrade_started": "Great! I'll start working on your greenhouse tomorrow. It will take 3 days.",
+  "success.upgrade_finished": "The greenhouse expansion is complete!",
+  "menu.greeting": "What can I do for you?",
+  "menu.yes": "Yes",
+  "menu.no": "No"
+}

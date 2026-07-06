@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Serayı Geliştir",
+  "menu.greenhouse": "Sera",
+  "question.level1": "Seranı 30.000g, 250 Odun ve 200 Taş karşılığında geliştirebilirim. İlgileniyor musun?",
+  "question.level2": "Seranı 50.000g, 300 Odun ve 100 Kalas karşılığında genişletebilirim. İlgileniyor musun?",
+  "question.level3": "Serana 80.000g, 500 Taş ve 150 Kalas karşılığında bir mahzen ekleyebilirim. İlgileniyor musun?",
+  "error.not_enough_gold": "Bu inşaat için yeterli altının yok!",
+  "error.not_enough_materials": "Envanterinde yeterli malzemen yok!",
+  "success.upgrade_started": "Harika! Malzemeleri aldım, sera inşaatına yarın başlayacağım. 3 gün sürecek.",
+  "success.upgrade_finished": "Sera genişletme çalışmaları tamamlandı!",
+  "menu.greeting": "Senin için ne yapabilirim?",
+  "menu.yes": "Evet",
+  "menu.no": "Hayır"
+}

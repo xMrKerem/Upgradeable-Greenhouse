@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Migliora serra",
+  "menu.greenhouse": "Serra",
+  "question.level1": "Posso migliorare la tua serra per 30.000g, 250 legno e 200 pietra. Ti interessa?",
+  "question.level2": "Posso ampliare la tua serra per 50.000g, 300 legno e 100 legno duro. Ti interessa?",
+  "question.level3": "Posso aggiungere una cantina alla tua serra per 80.000g, 500 pietra e 150 legno duro. Ti interessa?",
+  "error.not_enough_gold": "Non hai abbastanza oro per questa costruzione!",
+  "error.not_enough_materials": "Non hai abbastanza materiali nell'inventario!",
+  "success.upgrade_started": "Perfetto! Ho preso i materiali e inizierò i lavori alla serra domani. Ci vorranno 3 giorni.",
+  "success.upgrade_finished": "I lavori di ampliamento della serra sono completati!",
+  "menu.greeting": "Cosa posso fare per te?",
+  "menu.yes": "Sì",
+  "menu.no": "No"
+}

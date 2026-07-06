@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Améliorer la serre",
+  "menu.greenhouse": "Serre",
+  "question.level1": "Je peux améliorer ta serre pour 30 000 po, 250 bois et 200 pierres. Ça t'intéresse ?",
+  "question.level2": "Je peux agrandir ta serre pour 50 000 po, 300 bois et 100 bois dur. Ça t'intéresse ?",
+  "question.level3": "Je peux ajouter une cave à ta serre pour 80 000 po, 500 pierres et 150 bois dur. Ça t'intéresse ?",
+  "error.not_enough_gold": "Tu n'as pas assez d'or pour cette construction !",
+  "error.not_enough_materials": "Tu n'as pas assez de matériaux dans ton inventaire !",
+  "success.upgrade_started": "Parfait ! J'ai pris les matériaux et je commencerai les travaux de la serre demain. Cela prendra 3 jours.",
+  "success.upgrade_finished": "Les travaux d'agrandissement de la serre sont terminés !",
+  "menu.greeting": "Que puis-je faire pour toi ?",
+  "menu.yes": "Oui",
+  "menu.no": "Non"
+}

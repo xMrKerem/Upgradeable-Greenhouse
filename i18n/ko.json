@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "온실 업그레이드",
+  "menu.greenhouse": "온실",
+  "question.level1": "30,000g, 나무 250개, 돌 200개로 온실을 업그레이드해 줄 수 있어. 관심 있어?",
+  "question.level2": "50,000g, 나무 300개, 단단한 나무 100개로 온실을 확장해 줄 수 있어. 관심 있어?",
+  "question.level3": "80,000g, 돌 500개, 단단한 나무 150개로 온실에 지하실을 추가해 줄 수 있어. 관심 있어?",
+  "error.not_enough_gold": "이 공사를 진행할 골드가 부족해!",
+  "error.not_enough_materials": "인벤토리에 재료가 충분하지 않아!",
+  "success.upgrade_started": "좋아! 재료는 받았고, 내일부터 온실 공사를 시작할게. 3일 걸릴 거야.",
+  "success.upgrade_finished": "온실 확장 공사가 완료됐어!",
+  "menu.greeting": "무엇을 도와줄까?",
+  "menu.yes": "예",
+  "menu.no": "아니요"
+}

@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Üvegház fejlesztése",
+  "menu.greenhouse": "Üvegház",
+  "question.level1": "Fejleszthetem az üvegházadat 30 000g, 250 fa és 200 kő ellenében. Érdekel?",
+  "question.level2": "Kibővíthetem az üvegházadat 50 000g, 300 fa és 100 keményfa ellenében. Érdekel?",
+  "question.level3": "Hozzáadhatok egy pincét az üvegházadhoz 80 000g, 500 kő és 150 keményfa ellenében. Érdekel?",
+  "error.not_enough_gold": "Nincs elég aranyad ehhez az építkezéshez!",
+  "error.not_enough_materials": "Nincs elég alapanyag a hátizsákodban!",
+  "success.upgrade_started": "Remek! Elvettem az alapanyagokat, és holnap elkezdem az üvegház építését. 3 napig fog tartani.",
+  "success.upgrade_finished": "Az üvegház bővítési munkái elkészültek!",
+  "menu.greeting": "Mit tehetek érted?",
+  "menu.yes": "Igen",
+  "menu.no": "Nem"
+}

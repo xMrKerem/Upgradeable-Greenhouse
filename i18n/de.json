@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Gewächshaus verbessern",
+  "menu.greenhouse": "Gewächshaus",
+  "question.level1": "Ich kann dein Gewächshaus für 30.000g, 250 Holz und 200 Stein verbessern. Bist du interessiert?",
+  "question.level2": "Ich kann dein Gewächshaus für 50.000g, 300 Holz und 100 Hartholz erweitern. Bist du interessiert?",
+  "question.level3": "Ich kann deinem Gewächshaus für 80.000g, 500 Stein und 150 Hartholz einen Keller hinzufügen. Bist du interessiert?",
+  "error.not_enough_gold": "Du hast nicht genug Gold für diesen Bau!",
+  "error.not_enough_materials": "Du hast nicht genug Materialien im Inventar!",
+  "success.upgrade_started": "Großartig! Ich habe die Materialien genommen und beginne morgen mit den Arbeiten am Gewächshaus. Es dauert 3 Tage.",
+  "success.upgrade_finished": "Die Gewächshauserweiterung ist abgeschlossen!",
+  "menu.greeting": "Was kann ich für dich tun?",
+  "menu.yes": "Ja",
+  "menu.no": "Nein"
+}

@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "温室をアップグレード",
+  "menu.greenhouse": "温室",
+  "question.level1": "30,000g、木材250個、石200個で温室をアップグレードできるよ。興味ある？",
+  "question.level2": "50,000g、木材300個、硬い木100個で温室を拡張できるよ。興味ある？",
+  "question.level3": "80,000g、石500個、硬い木150個で温室に地下室を追加できるよ。興味ある？",
+  "error.not_enough_gold": "この建設にはお金が足りないよ！",
+  "error.not_enough_materials": "インベントリに材料が足りないよ！",
+  "success.upgrade_started": "よし！材料は受け取ったよ。明日から温室の工事を始めるね。3日かかるよ。",
+  "success.upgrade_finished": "温室の拡張工事が完了したよ！",
+  "menu.greeting": "今日は何を手伝おうか？",
+  "menu.yes": "はい",
+  "menu.no": "いいえ"
+}

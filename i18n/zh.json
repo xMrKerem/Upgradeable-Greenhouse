@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "升级温室",
+  "menu.greenhouse": "温室",
+  "question.level1": "我可以花费 30,000g、250 木材和 200 石头帮你升级温室。你有兴趣吗？",
+  "question.level2": "我可以花费 50,000g、300 木材和 100 硬木帮你扩建温室。你有兴趣吗？",
+  "question.level3": "我可以花费 80,000g、500 石头和 150 硬木给你的温室加建地下室。你有兴趣吗？",
+  "error.not_enough_gold": "这项工程的金币不够！",
+  "error.not_enough_materials": "你的背包里没有足够的材料！",
+  "success.upgrade_started": "太好了！材料我收下了，明天开始温室施工。需要 3 天。",
+  "success.upgrade_finished": "温室扩建工程完成了！",
+  "menu.greeting": "我能为你做什么？",
+  "menu.yes": "是",
+  "menu.no": "否"
+}

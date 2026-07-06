@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Mejorar invernadero",
+  "menu.greenhouse": "Invernadero",
+  "question.level1": "Puedo mejorar tu invernadero por 30.000g, 250 de madera y 200 de piedra. ¿Te interesa?",
+  "question.level2": "Puedo ampliar tu invernadero por 50.000g, 300 de madera y 100 de madera noble. ¿Te interesa?",
+  "question.level3": "Puedo añadir un sótano a tu invernadero por 80.000g, 500 de piedra y 150 de madera noble. ¿Te interesa?",
+  "error.not_enough_gold": "¡No tienes suficiente oro para esta obra!",
+  "error.not_enough_materials": "¡No tienes suficientes materiales en el inventario!",
+  "success.upgrade_started": "¡Genial! He tomado los materiales y empezaré a trabajar en el invernadero mañana. Tardará 3 días.",
+  "success.upgrade_finished": "¡La ampliación del invernadero está terminada!",
+  "menu.greeting": "¿Qué puedo hacer por ti?",
+  "menu.yes": "Sí",
+  "menu.no": "No"
+}

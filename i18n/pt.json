@@ -1,0 +1,14 @@
+{
+  "menu.upgrade_greenhouse": "Melhorar estufa",
+  "menu.greenhouse": "Estufa",
+  "question.level1": "Posso melhorar sua estufa por 30.000g, 250 madeira e 200 pedra. Tem interesse?",
+  "question.level2": "Posso ampliar sua estufa por 50.000g, 300 madeira e 100 madeira de lei. Tem interesse?",
+  "question.level3": "Posso adicionar um porão à sua estufa por 80.000g, 500 pedra e 150 madeira de lei. Tem interesse?",
+  "error.not_enough_gold": "Você não tem ouro suficiente para esta construção!",
+  "error.not_enough_materials": "Você não tem materiais suficientes no inventário!",
+  "success.upgrade_started": "Ótimo! Peguei os materiais e vou começar a construção da estufa amanhã. Vai levar 3 dias.",
+  "success.upgrade_finished": "As obras de ampliação da estufa foram concluídas!",
+  "menu.greeting": "O que posso fazer por você?",
+  "menu.yes": "Sim",
+  "menu.no": "Não"
+}

@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Upgradeable Greenhouse",
   "author": "xMrAydin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "Description": "The mod that makes the greenhouse upgradeable by Robin.",
   "UniqueID": "xMrAydin.UpgradeableGreenHouse",
   "EntryDll": "GreenhouseUpgrade.dll",

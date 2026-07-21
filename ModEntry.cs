@@ -128,6 +128,9 @@ public class ModEntry : Mod
         if (!e.NameWithoutLocale.IsEquivalentTo(GreenhouseMapAssetName))
             return;
 
+        if (!this.IsGreenhouseUnlocked())
+            return;
+
         string? mapPath = this.GetMapPath(this.Data.GreenhouseLevel);
         if (mapPath == null)
             return;
@@ -257,7 +260,7 @@ public class ModEntry : Mod
 
     private bool ShouldAddGreenhouseUpgradeResponse(Response[] answerChoices, string dialogKey)
     {
-        if (!Context.IsWorldReady || this.Data.DaysUntilUpgrade > 0 || this.Data.GreenhouseLevel >= MaxPurchasableGreenhouseLevel)
+        if (!Context.IsWorldReady || !this.IsGreenhouseUnlocked() || this.Data.DaysUntilUpgrade > 0 || this.Data.GreenhouseLevel >= MaxPurchasableGreenhouseLevel)
             return false;
 
         if (!this.IsRobinDeskDialogue(answerChoices, dialogKey))
@@ -334,7 +337,7 @@ public class ModEntry : Mod
         if (!Context.IsWorldReady)
             return;
 
-        if (this.Data.DaysUntilUpgrade > 0 || this.Data.GreenhouseLevel >= MaxPurchasableGreenhouseLevel)
+        if (!this.IsGreenhouseUnlocked() || this.Data.DaysUntilUpgrade > 0 || this.Data.GreenhouseLevel >= MaxPurchasableGreenhouseLevel)
             return;
 
         Game1.currentLocation.createQuestionDialogue(
@@ -351,7 +354,7 @@ public class ModEntry : Mod
     private void StartGreenhouseUpgrade(Farmer who)
     {
         int targetLevel = this.Data.GreenhouseLevel + 1;
-        if (this.Data.DaysUntilUpgrade > 0 || targetLevel > MaxPurchasableGreenhouseLevel)
+        if (!this.IsGreenhouseUnlocked() || this.Data.DaysUntilUpgrade > 0 || targetLevel > MaxPurchasableGreenhouseLevel)
             return;
 
         UpgradeCost cost = this.GetUpgradeCost(targetLevel);
@@ -505,6 +508,34 @@ public class ModEntry : Mod
                 string.Equals(location.Name, GreenhouseLocationName, StringComparison.OrdinalIgnoreCase)
                 || string.Equals(location.NameOrUniqueName, GreenhouseLocationName, StringComparison.OrdinalIgnoreCase)
             );
+    }
+
+    private bool IsGreenhouseUnlocked()
+    {
+        if (!Context.IsWorldReady)
+            return false;
+
+        try
+        {
+            object? farm = Game1.getFarm();
+            object? unlockFlag = typeof(Farm)
+                .GetField("greenhouseUnlocked", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic)
+                ?.GetValue(farm);
+
+            if (unlockFlag is bool unlocked)
+                return unlocked;
+
+            if (unlockFlag?.GetType().GetProperty("Value")?.GetValue(unlockFlag) is bool netUnlocked)
+                return netUnlocked;
+        }
+        catch (Exception ex)
+        {
+            this.Monitor.Log($"Could not read greenhouse unlock flag directly: {ex.Message}", LogLevel.Trace);
+        }
+
+        Farmer masterPlayer = Game1.MasterPlayer ?? Game1.player;
+        return masterPlayer.mailReceived.Contains("ccPantry")
+            || masterPlayer.mailReceived.Contains("jojaPantry");
     }
 
     private string GetUpgradeQuestion()
